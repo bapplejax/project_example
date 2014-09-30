@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jake Bapple</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+	
+	<style>
+	.newnav {
+		font-size: 25px;
+	}
+	ul#menu {
+		margin-bottom: 40px;
+	}
+	a#jaketitle {
+		font-size: 40px;
+		font-style: bold;
+	}
+	</style>
+    
+    <!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen" href="http://www.jamesjoyce.co.uk/ie6.css" />
+    <![endif]-->
+    <!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" media="screen" href="http://www.jamesjoyce.co.uk/ie7.css" />
+    <![endif]-->
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        if ($.browser.msie && (parseFloat($.browser.version) < 7)){
+          $(".block").hover(
+            function(){ $(this).find(".information").show(); },
+            function(){ $(this).find(".information").hide(); }
+          );
+        }
+      });
+    </script>
+	<!-- Scrolling Horizontally -->
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+	<script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+    <script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+	<!-- End Horizontally Scrolling -->
+  </head>
+  <body>
+    <div id="content">
+      
+      <table id="wrapper">
+      <tr><td><div class="dots horizontal"></div></td></tr>
+      <tr>
+      <td>
+      <table id="project-list" cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+            <div id="navigation">
+              <!-- Navigation start -->
+              <div id="logotype">
+                <a id="jaketitle" href="http://www.jamesjoyce.co.uk/">Jake Bapple</a>
+              </div>
+              <ul id="menu">
+                <li><a id="menu-work" href="http://www.jamesjoyce.co.uk/"><span class="newnav">Portfolio</span></a></li>
+                <li><a id="menu-profile" href="http://www.jamesjoyce.co.uk/profile"><span class="newnav">Profile</span></a></li>
+                <li><a id="menu-contact" href="http://www.jamesjoyce.co.uk/contact"><span class="newnav">Contact</span></a></li>
+              </ul>
+              <!-- Navigation end -->
+            </div>
+          </td>
+          <td>
+            <!-- Divider start -->
+            <div class="divider"></div>
+            <!-- Divider end -->
+          </td>
+          <td>
+            <!-- Project start -->
+            <div class="block">
+              <div class="block-content">
+              
+                <div class="information">
+                  <p>Grimes Portrait</p>
+                  <hr />
+                  <p>Illustrator<br />&nbsp;<br /><em>Personal Project</em><br />&nbsp;<br />&copy; Jake Bapple<br /></p>
+                </div>
+                
+                <div class="image">
+                  <img src="img/Grimes_Portrait.jpg" alt="Grimes" />
+                </div>
+
+              </div>
+            </div>
+            <!-- Project end -->
+          </td>
+		  <td>
+            <!-- Divider start -->
+            <div class="divider"></div>
+            <!-- Divider end -->
+          </td>
+          <td>
+            <!-- Project start -->
+            <div class="block">
+              <div class="block-content">
+              
+                <div class="information">
+                  <p>Nun Chucks</p>
+                  <hr />
+                  <p>Illustrator & Photoshop<br />&nbsp;<br /><em>Personal Project</em><br />&nbsp;<br />&copy; Jake Bapple<br /></p>
+                </div>
+                
+                <div class="image">
+                  <img src="img/nun_chucks.jpg" alt="Nun Chucks" />
+                </div>
+
+              </div>
+            </div>
+            <!-- Project end -->
+		  <td>
+            <!-- Divider start -->
+            <div class="divider"></div>
+            <!-- Divider end -->
+          </td>
+          <td>
+            <!-- Project start -->
+            <div class="block">
+              <div class="block-content">
+              
+                <div class="information">
+                  <p>Grackles</p>
+                  <hr />
+                  <p>Illustrator & Photoshop<br />&nbsp;<br /><em>Personal Project</em><br />&nbsp;<br />&copy; Jake Bapple<br /></p>
+                </div>
+                
+                <div class="image">
+                  <img src="img/Shirt_Grackle.jpg" alt="Grackles" />
+                </div>
+
+              </div>
+            </div>
+            <!-- Project end -->
+          </td>
+		  <td>
+            <!-- Divider start -->
+            <div class="divider"></div>
+            <!-- Divider end -->
+          </td>
+          <td>
+            <!-- Project start -->
+            <div class="block">
+              <div class="block-content">
+              
+                <div class="information">
+                  <p>Chicago</p>
+                  <hr />
+                  <p>Typography<br />&nbsp;<br /><em>Personal Project</em><br />&nbsp;<br />&copy; Jake Bapple<br /></p>
+                </div>
+                
+                <div class="image">
+                  <img src="img/Typography_Chicago.jpg" alt="Chicago" />
+                </div>
+
+              </div>
+            </div>
+            <!-- Project end -->
+          </td>
+		  <td>
+            <!-- Divider start -->
+            <div class="divider"></div>
+            <!-- Divider end -->
+          </td>
+          <td>
+            <!-- Project start -->
+            <div class="block">
+              <div class="block-content">
+              
+                <div class="information">
+                  <p>Stormtrooper</p>
+                  <hr />
+                  <p>Illustrator & Photoshop Poster<br />&nbsp;<br /><em>Personal Project</em><br />&nbsp;<br />&copy; Jake Bapple<br /></p>
+                </div>
+                
+                <div class="image">
+                  <img src="img/Stormtrooper_Poster.jpg" alt="Stormtrooper" />
+                </div>
+
+              </div>
+            </div>
+            <!-- Project end -->
+          </td>
+          <td>
+            <div class="block">
+              <div class="block-content">
+                <div class="link-archive-holder">
+                  <a href="tag/archive/" class="link-archive"></a>
+                </div>
+              </div>
+            </div>
+          </td>
+
+        </tr>
+      </table>
+      </td>
+      </tr>
+      <tr><td><div class="dots horizontal"></div></td></tr>
+      </table>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-6260182-1");
+      pageTracker._trackPageview();
+    </script>
+    <!-- Proud Creative <http://www.proudcreative.com/> / Cloud <http://www.madebycloud.com/> -->
+  </body>
+</html>
